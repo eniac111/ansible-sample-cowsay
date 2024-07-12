@@ -1,0 +1,13 @@
+---
+# tasks file for cowsay
+
+
+- name: Install Cowsay
+  ansible.builtin.apt:
+    name: cowsay
+    state: present
+    update_cache: yes
+
+
+- name: Test Cowsay
+  ansible.builtin.shell: cowsay Hello
