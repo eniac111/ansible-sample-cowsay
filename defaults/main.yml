@@ -1,2 +1,4 @@
 ---
 # defaults file for cowsay
+
+cow_says: "Hello World!"

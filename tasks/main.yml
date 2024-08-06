@@ -10,4 +10,4 @@
 
 
 - name: Test Cowsay
-  ansible.builtin.shell: /usr/games/cowsay Hello
+  ansible.builtin.shell: '/usr/games/cowsay {{ cow_says }}'
